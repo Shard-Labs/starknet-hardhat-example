@@ -1,2 +1,2 @@
-/** 15 min */
-export const TIMEOUT = 900_000;
+/** 1 min */
+export const TIMEOUT = 60_000;
