@@ -20,8 +20,8 @@ const config: HardhatUserConfig = {
     }
   },
   mocha: {
-    // starknetNetwork: "devnet"
-    starknetNetwork: "alpha"
+    starknetNetwork: "devnet"
+    // starknetNetwork: "alpha"
   }
 };
 
