@@ -144,7 +144,7 @@ describe("Starknet", function () {
 
     expect(contract.address).to.deep.equal(EXPECTED_ADDRESS);
   });
-
+/*
   it("should work with negative inputs", async function() {
     const contract = contractFactory.getContractAt(preservedAddress);
 
@@ -154,7 +154,7 @@ describe("Starknet", function () {
 
     const { res: sumArray } = await contract.call("sum_array", {a: [-1, -2, -3, -4] });
     expect(sumArray).to.deep.equal(-10n);
-  });
+  });*/
 
   it("should work with an array of struct", async function() {
     const contract = contractFactory.getContractAt(preservedAddress);
