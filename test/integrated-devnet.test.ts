@@ -5,7 +5,7 @@ import axios from "axios";
 
 import { TIMEOUT } from "./constants";
 
-describe("Starknet with integrated devnet", function() {
+describe.only("Starknet with integrated devnet", function() {
     this.timeout(TIMEOUT);
 
     it("should work for a fresh deployment", async function() {
